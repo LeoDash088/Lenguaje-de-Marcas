@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto 1fr;
+    background-color: burlywood;
+
+
+}
+header {
+    display: flex;
+    background-color: blanchedalmond;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+
+header > img{
+    order: 1;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    display:inline;
+}
+
+nav{
+    background-color: chocolate;
+    flex-direction: row;
+    justify-items: space-between;
+
+}
+nav > li{
+    padding: 10px;
+    border: 1px solid brown;
+    background-color: bisque;
+    color: azure;
+    font-size: 20px;
+    
+
+
+}
+
+
+#titulo-principal{
+    order: 2;
+    display:inline;
+    color: purple;
+    width: auto;
+    height: auto;
+
+
+
+
+}
