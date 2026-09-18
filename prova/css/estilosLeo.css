@@ -59,6 +59,12 @@ td{
     color: rebeccapurple;
     padding-top: 10px;
     padding-bottom: 10px;
+    transition: transform 0,2s, ease-out;
+}
+
+.hora-horari > td:hover,
+.hora-horari > th:hover {
+    transform: scale (1.1)
 }
 tr > th {
     padding: 15px;
