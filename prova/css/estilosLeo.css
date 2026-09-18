@@ -44,6 +44,21 @@ main > ul{
     width: 100%;
 
 }
+#mini-pulcra{
+    width: 100px;
+    height: auto;
+}
+#contenedor-img{
+    justify-content: start;
+    padding-top: 15px;
+    padding-left: 15px;
+
+
+}
+caption{
+    padding-bottom: 20px;
+
+}
 main > ul > li > a{
     color: greenyellow;
 }
@@ -59,12 +74,12 @@ td{
     color: rebeccapurple;
     padding-top: 10px;
     padding-bottom: 10px;
-    transition: transform 0,2s, ease-out;
+    transition: transform 0.2s ease-out;
 }
 
 .hora-horari > td:hover,
 .hora-horari > th:hover {
-    transform: scale (1.1)
+    transform: scale(1.1)
 }
 tr > th {
     padding: 15px;
@@ -90,14 +105,22 @@ footer{
 table{
     border-collapse: collapse;
     table-layout: fixed;
-    width: 60%;
+    width: 66%;
     text-align:center;
     border: 1px solid green;
+    padding-bottom: 20px;
 
 }
 
 #vacio{
 
     background-color: coral;
+
+}
+volver{
+    background-color: red;
+    padding:20px;
+    border: 1px solid black;
+    border-radius: 30;
 
 }
