@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --color-fondo: #222222;
+    --color-texto: white;
+    --color-principal: #3498db;
+
+
+}
+
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+header{
+    grid-row: 1 / 2;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    padding: 20px 0px;
+}
+.patio {
+    background-color: #e0e0e0;
+    font-weight: bold;
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    grid-row: 2/3;
+}
+main > ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: brown;
+    width: 100%;
+
+}
+main > ul > li > a{
+    color: greenyellow;
+}
+td{
+    background-color: var(--color-fondo);
+    color:var(--color-texto);
+    border: 1px solid green;
+}
+
+.hora-horari > td,
+.hora-horari > th {
+    background-color: aquamarine;
+    color: rebeccapurple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+tr > th {
+    padding: 15px;
+    border: 1px solid green;
+
+}
+.hora-horari > td{
+
+    background-color: aquamarine;
+    color: rebeccapurple;
+
+
+}
+
+footer{
+    display: flex;
+    font-size: 23px;
+    text-align: center;
+    justify-content: center;
+    grid-row: 3/4;
+}
+
+table{
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 60%;
+    text-align:center;
+    border: 1px solid green;
+
+}
+
+#vacio{
+
+    background-color: coral;
+
+}
