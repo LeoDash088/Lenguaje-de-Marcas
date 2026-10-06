@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+h1 {
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+ol, ul {
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+li {
+    margin: 8px;
+}
