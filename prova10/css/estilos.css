@@ -28,3 +28,14 @@ input {
 label {
     color: purple;
 }
+
+.btn-volver {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: #ddd;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
